@@ -25,9 +25,6 @@ $(call inherit-product, vendor/motorola/montana/montana-vendor.mk)
 # Inherit some common Kraken stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-
 PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
 
